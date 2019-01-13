@@ -1,0 +1,31 @@
+{
+    "dependencies": {
+        "@zeit/next-sass": "^1.0.1",
+        "aws-sdk": "^2.360.0",
+        "dotenv": "^6.1.0",
+        "isomorphic-fetch": "^2.2.1",
+        "next": "latest",
+        "next-redux-wrapper": "^2.1.0",
+        "node-sass": "^4.11.0",
+        "prop-types": "^15.6.2",
+        "react": "latest",
+        "react-dom": "latest",
+        "react-redux": "^5.1.1",
+        "redux": "^4.0.1",
+        "redux-devtools-extension": "^2.13.5",
+        "redux-thunk": "^2.3.0"
+    },
+    "scripts": {
+        "dev": "NODE_ENV=development next",
+        "build": "next build",
+        "start": "next start -p 2500",
+        "start-server": "pm2 reload server.json"
+    },
+    "devDependencies": {
+        "babel-eslint": "^10.0.1",
+        "eslint": "^5.10.0",
+        "eslint-plugin-react": "^7.11.1",
+        "uglifyjs-webpack-plugin": "^2.0.1",
+        "webpack": "^4.27.1"
+    }
+}
