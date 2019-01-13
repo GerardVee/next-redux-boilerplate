@@ -1,1 +1,1 @@
-# spoof
+# next-redux-boilerplate
